@@ -1,0 +1,169 @@
+Model_ID	Type	Subtype	Resfam Family name	Description	ARO Identifiers	HMM Source	Antibiotic Classification (Resfam Only)Mechanism Classification	Ressistance Mechanism	
+PF04655.12	aminoglycoside	APH_6_hur	APH_6_hur	Aminoglycoside/hydroxyurea antibiotic resistance kinase	PF04655.12	Pfam		Other	
+RF0002	aminoglycoside	AAC3	AAC3	Aminoglycoside Acetyltransferase (AAC3)	ARO:3000104;ARO:3000322	Resfam	Aminoglycoside Modifying Enzyme	Acetyltransferase	
+RF0003	aminoglycoside	AAC3-I	AAC3-I	Aminoglycoside Acetyltransferase (AAC3-I)	ARO:3000104;ARO:3001205	Resfam	Aminoglycoside Modifying Enzyme	Acetyltransferase	
+RF0004	aminoglycoside	AAC6-I	AAC6-I	Aminoglycoside Acetyltransferase (AAC6-I)	AARO:3000104;ARO:3001207	Resfam	Aminoglycoside Modifying Enzyme	Acetyltransferase	
+RF0005	aminoglycoside	AAC6-Ib	AAC6-Ib	Aminoglycoside Acetyltransferase (AAC6-Ib)	ARO:3000104;ARO:3001206	Resfam	Aminoglycoside Modifying Enzyme	Acetyltransferase	
+RF0006	aminoglycoside	AAC6-II	AAC6-II	Aminoglycoside Acetyltransferase (AAC6-II)	ARO:3000104;ARO:3001208	Resfam	Aminoglycoside Modifying Enzyme	Acetyltransferase	
+RF0026	aminoglycoside	ANT2	ANT2	Aminoglycoside Nucleotidyltransferase (ANT2)	ARO:3000230	Resfam	Aminoglycoside Modifying Enzyme	Nucleotidyltransferase	
+RF0027	aminoglycoside	ANT3	ANT3	Aminoglycoside Nucleotidyltransferase (ANT3)	ARO:3000232	Resfam	Aminoglycoside Modifying Enzyme	Nucleotidyltransferase	
+RF0028	aminoglycoside	ANT4	ANT4	Aminoglycoside Nucleotidyltransferase (ANT4)	ARO:3000229	Resfam	Aminoglycoside Modifying Enzyme	Nucleotidyltransferase	
+RF0029	aminoglycoside	ANT6	ANT6	Aminoglycoside Nucleotidyltransferase (ANT6)	ARO:3000225	Resfam	Aminoglycoside Modifying Enzyme	Nucleotidyltransferase	
+RF0030	aminoglycoside	ANT9	ANT9	Aminoglycoside Nucleotidyltransferase (ANT9)	ARO:3000228	Resfam	Aminoglycoside Modifying Enzyme	Nucleotidyltransferase	
+RF0031	aminoglycoside	Antibiotic_NAT	Antibiotic_NAT	PF02522.9 Aminoglycoside 3-N-acetyltransferase	ARO:3000121	Pfam		Acetyltransferase	
+RF0032	aminoglycoside	APH	APH	PF01636.18 Phosphotransferase enzyme family	ARO:3000000	Pfam		Acetyltransferase	
+RF0033	aminoglycoside	APH3	APH3	aminoglycoside phosphotransferase (APH3)	ARO:3000126	Resfam	Aminoglycoside Modifying Enzyme	Phosphotransferase	
+RF0034	aminoglycoside	APH6	APH6	aminoglycoside phosphotransferase (APH3)	ARO:3000151	Resfam	Aminoglycoside Modifying Enzyme	Phosphotransferase	
+RF0166	aminoglycoside	ANT	ANT	Aminoglycoside Nucleotidyltransferase	ARO:3000218	Resfam	Aminoglycoside Modifying Enzyme	Nucleotidyltransferase	
+RF0167	aminoglycoside	Aminoglyc_resit	Aminoglyc_resit	PF10706.4_Aminoglycoside-2''-adenylyltransferase	ARO:3000104	Pfam		Adenylyltransferase	
+RF0172	aminoglycoside	APH3''	APH3''	Streptomycin phosphotransferase	ARO:3000128	Resfam	Aminoglycoside Modifying Enzyme	Phosphotransferase	
+RF0173	aminoglycoside	APH3'	APH3'	Broad-spectrum Aminoglycoside Phosphotransferase	ARO:3000127	Resfam	Aminoglycoside Modifying Enzyme	Phosphotransferase	
+RF0174	aminoglycoside	ArmA_Rmt	ArmA_Rmt	16S rRNA methyltransferase providing aminoglycoside resistance	ARO:3000857	Resfam	Aminoglycoside Resistance	rRNA Methyltransferase	
+RF0011	aminoglycoside	Acetyltransf_1	Acetyltransf_1	PF00583.19 Acetyltransferase (GNAT) family	ARO:3000000	Pfam		Acetyltransferase	
+RF0012	aminoglycoside	Acetyltransf_3	Acetyltransf_3	PF13302.1 Acetyltransferase (GNAT) domain	ARO:3000000	Pfam		Acetyltransferase	
+RF0013	aminoglycoside	Acetyltransf_4	Acetyltransf_4	PF13420.1 Acetyltransferase (GNAT) domain	ARO:3000000	Pfam		Acetyltransferase	
+RF0014	aminoglycoside	Acetyltransf_7	Acetyltransf_7	PF13508.1 Acetyltransferase (GNAT) domain	ARO:3000000	Pfam		Acetyltransferase	
+RF0015	aminoglycoside	Acetyltransf_8	Acetyltransf_8	PF13523.1 Acetyltransferase (GNAT) domain	ARO:3000000	Pfam		Acetyltransferase	
+RF0016	aminoglycoside	Acetyltransf_9	Acetyltransf_9	PF13527.1 Acetyltransferase (GNAT) domain	ARO:3000000	Pfam		Acetyltransferase	
+RF0018	aminoglycoside	Acyltransferase	Acyltransferase	PF01553.16 Acyltransferase	ARO:3000000	Pfam		Acetyltransferase	
+PF00753.25	beta-lactam	Lactamase_B	Lactamase_B	Metallo-beta-lactamase superfamily	PF00753.25	Pfam	Beta-Lactamase	Beta-Lactamase	
+PF03717.13	beta-lactam	PBP_dimer	PBP_dimer	Penicillin-binding Protein dimerisation domain	PF03717.13	Pfam	Beta-Lactamase	Beta-Lactamase	
+PF06832.10	beta-lactam	BiPBP_C	BiPBP_C	Penicillin-Binding Protein C-terminus Family	PF06832.10	Pfam		Beta-Lactamase	
+PF12706.5	beta-lactam	Lactamase_B_2	Lactamase_B_2	Beta-lactamase superfamily domain	PF12706.5	Pfam	Beta-Lactamase	Beta-Lactamase	
+PF13354.4	beta-lactam	Beta-lactamase2	Beta-lactamase2	Beta-lactamase enzyme family	PF13354.4	Pfam		Beta-Lactamase	
+PF13483.4	beta-lactam	Lactamase_B_3	Lactamase_B_3	Beta-lactamase superfamily domain	PF13483.4	Pfam	Beta-Lactamase	Beta-Lactamase	
+TIGR02071	beta-lactam	TIGR02071	TIGR02071	PBP_1b: penicillin-binding protein 1B	TIGR02071	TIGRFam	Beta-Lactamase	Beta-Lactamase	
+TIGR02073	beta-lactam	TIGR02073	TIGR02073	PBP_1c: penicillin-binding protein 1C	TIGR02073	TIGRFam	Beta-Lactamase	Beta-Lactamase	
+TIGR02074	beta-lactam	TIGR02074	TIGR02074	"PBP_1a_fam: penicillin-binding protein, 1A family"	TIGR02074	TIGRFam	Beta-Lactamase	Beta-Lactamase	
+TIGR03423	beta-lactam	TIGR03423	TIGR03423	pbp2_mrdA: penicillin-binding protein 2	TIGR03423	TIGRFam	Beta-Lactamase	Beta-Lactamase	
+RF0037	beta-lactam	BCII	BCII	Bacillus cereus beta-lactamase II (subclass B1 (metallo-) beta-lactamase)	ARO:3000577	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0038	beta-lactam	Beta-lactamase	Beta-lactamase	PF00144.19 Beta-lactamase	ARO:3000001	Pfam		Beta-Lactamase	
+RF0039	beta-lactam	Beta-lactamase2	Beta-lactamase2	PF13354.1 Beta-lactamase enzyme family	ARO:3000001	Pfam		Beta-Lactamase	
+RF0040	beta-lactam	BJP	BJP	BJP beta-lactamase (subclass B3 (metallo-) beta-lactamase)	ARO:3000856	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0041	beta-lactam	BlaB	BlaB	Beta-lactamase B (BlaB) (subclass B1 (metallo-) beta-lactamase)	ARO:3000579	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0042	beta-lactam	blaI	blaI	"blaI: gene modulating beta-lactam resistance, regulates PC1 beta-lactamase (blaZ)"	ARO:3000090	Resfam	Gene Modulating Resistance	Gene Modulating Resistance	
+RF0043	beta-lactam	blaR1	blaR1	"blaR1: gene modulating beta-lactam resistance, regulates PC1 beta-lactamase (blaZ)"	ARO:3000217	Resfam	Gene Modulating Resistance	Gene Modulating Resistance	
+RF0044	beta-lactam	CARB-PSE	CARB-PSE	CARB-PSE beta-lactamases (class a)	ARO:3000091;ARO:3000092	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0046	beta-lactam	CblA	CblA	CblA cephalosporin (class a)	ARO:3001209	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0047	beta-lactam	CepA	CepA	CepA cehphalosporin (class a)	ARO:3001210	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0049	beta-lactam	CfxA	CfxA	CfxA cephalosporin (class a)	ARO:3001211	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0053	beta-lactam	ClassA	ClassA	Class A beta-lactamase	ARO:3000078	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0054	beta-lactam	ClassB	ClassB	Class B beta-lactamase	ARO:3000004	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0055	beta-lactam	ClassC-AmpC	ClassC-AmpC	Class C beta-lactamases	ARO:3000076;ARO:3000019	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0056	beta-lactam	ClassD	ClassD	Class D beta-lactamases	ARO:3000075;ARO:3000017	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0057	beta-lactam	CMY-LAT-MOX-ACT-MIR-FOX	CMY-LAT-MOX-ACT-MIR-FOX	"A grouping of the related CMY, LAT, MOX, ACT, MIR, and FOX beta-lactamases (class c)"	ARO:3000072;ARO:3000058;ARO:3000067;ARO:3000084;ARO:3000069;ARO:3000083	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0059	beta-lactam	CTXM	CTXM	CTX-M beta-lactamase (class a)	ARO:3000016	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0062	beta-lactam	DHA	DHA	DHA beta-lactamase (class c)	ARO:3000068	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0064	beta-lactam	DIM-GIM-SIM	DIM-GIM-SIM	"A grouping of the related DIM, GIM, and SIM beta-lactamases (subclass B1 (metallo-) beta-lactamases)"	ARO:3000848;ARO:3000845;ARO:3000846	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0072	beta-lactam	Exo	Exo	Exo beta-lactamase (class a)	ARO:3001213	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0076	beta-lactam	GES	GES	GES beta-lactamase (class a)	ARO:3000066	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0078	beta-lactam	GOB	GOB	GOB beta-lactamase (subclass B3 (metallo-) beta-lactamase)	ARO:3000850	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0080	beta-lactam	IMP	IMP	Plasmid mediated IMP-type carbapenemases (subclass B1 (metallo-) beta-lactamase)	ARO:3000020	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0081	beta-lactam	IND	IND	IND beta-lactamases (subclass B1 (metallo-) beta-lactamase)	ARO:3000060	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0082	beta-lactam	KHM	KHM	KHM beta-lactamases (subclass B1 (metallo-) beta-lactamase)	ARO:3000847	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0083	beta-lactam	KPC	KPC	Klebsiella pneumoniae carbapenem resistant (KPC) beta-lactamases (class a)	ARO:3000059	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0084	beta-lactam	L1	L1	L1 beta-lactamase (subclass B3 (metallo-) beta-lactamase)	ARO:3000582	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0085	beta-lactam	Lactamase_B	Lactamase_B	PF00753.22 Metallo-beta-lactamase superfamily	ARO:3000004	Pfam	Beta-Lactamase	Beta-Lactamase	
+RF0086	beta-lactam	Lactamase_B_2	Lactamase_B_2	PF12706.2 Beta-lactamase superfamily domain	ARO:3000001	Pfam	Beta-Lactamase	Beta-Lactamase	
+RF0087	beta-lactam	LRA	LRA	LRA beta-lactamase (subclass B3 (metallo-) beta-lactamase)	ARO:3000852	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0094	beta-lactam	mecR1	mecR1	mecR1: gene modulating beta-lactam resistance	ARO:3000215	Resfam	Gene Modulating Resistance	Gene Modulating Resistance	
+RF0105	beta-lactam	MoxA	MoxA	MoxA beta-lactamase (class a)	ARO:3001215	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0108	beta-lactam	NDM-CcrA	NDM-CcrA	A grouping of related NDM and CcrA beta-lactamases	ARO:3000057;ARO:3000578	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0111	beta-lactam	PC1	PC1	PC1: blaZ beta-lactamase (class a)	ARO:3000621	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0118	beta-lactam	Sfh	Sfh	sfh beta-lactamases (subclass B2 (metallo-) beta-lactamase)	ARO:3000849	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0119	beta-lactam	SHV-LEN	SHV-LEN	A grouping of the related SHV and LEN beta-lactamases (class a)	ARO:3000096	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0120	beta-lactam	SME	SME	SME beta-lactamase (class a)	ARO:3000055	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0122	beta-lactam	SPM	SPM	Sao Paulo metallo-beta-lactamase (SPM-1) (subclass B1 (metallo-) beta-lactamase)	ARO:3000580	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0123	beta-lactam	SubclassB1	SubclassB1	"Subclass B1 (metallo-) beta-lactamase hydrolize penicillins, cephalosporins and carbapenems"	ARO:3000568	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0124	beta-lactam	SubclassB2	SubclassB2	Subclass B2 (metallo-) beta-lactamase selectively hydrolize carbapenems	ARO:3000570	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0125	beta-lactam	SubclassB3	SubclassB3	"Subclass B3 (metallo-) beta-lactamase hydrolize penicillins, cephalosporins and carbapenems"	ARO:3000571	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0126	beta-lactam	TEM	TEM	TEM beta-lactamase (class a)	ARO:3000014	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0148	beta-lactam	Transpeptidase	Transpeptidase	PF00905.17 Penicillin binding protein transpeptidase domain	ARO:3000129	Pfam		Target Redundancy/Overexpression	
+RF0161	beta-lactam	VEB-PER	VEB-PER	VEB and PER beta-lactamases (class a)	ARO:3000043;ARO:3000056	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0162	beta-lactam	VIM	VIM	Verone integron-encoded (VIM) metallo-beta-lactamase (subclass B1 (metallo-) beta-lactamase)	ARO:3000021	Resfam	Beta-Lactamase	Beta-Lactamase	
+RF0077	bleomycin	Glyoxalase	Glyoxalase	PF00903.20 Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily	ARO:3000000	Pfam		Other	
+RF0045	chloramphenicol	CAT	CAT	PF00302.13 Chloramphenicol acetyltransferase	ARO:3000122	Pfam	Chloramphenicol Resistance	Acetyltransferase	
+RF0048	chloramphenicol	Cfr23RibosomalRNAMethyltransferase	Cfr23RibosomalRNAMethyltransferase	Cfr 23S ribosomal RNA methyltransferase	ARO:3000202	Resfam	rRNA Methyltransferase	rRNA Methyltransferase	
+RF0050	chloramphenicol	Chloramphenicol_Acetyltransferase_CAT	Chloramphenicol_Acetyltransferase_CAT	chloramphenicol acetyltransferase (CAT)	ARO:3000122	Resfam	Chloramphenicol Resistance	Acetyltransferase	
+RF0051	chloramphenicol	Chloramphenicol_Efflux_Pump	Chloramphenicol_Efflux_Pump	chloramphenicol efflux pump	ARO:3001212	Resfam	Chloramphenicol Resistance	Other Efflux	
+RF0052	chloramphenicol	Chloramphenicol_Phosphotransferase_CPT	Chloramphenicol_Phosphotransferase_CPT	chloramphenicol phosphotransferase (CPT)	ARO:3000249	Resfam	Chloramphenicol Resistance	Phosphotransferase	
+RF0058	chloramphenicol	CPT	CPT	PF07931.7 Chloramphenicol phosphotransferase-like protein	ARO:3000249	Pfam	Chloramphenicol Resistance	Phosphotransferase	
+RF0143	daunorubicin	drrA	drrA	"TIGR01188 drrA: daunorubicin resistance ABC transporter, ATP-binding protein"	ARO:3000000	TIGRFam		ABC Transporter	
+RF0069	macrolide-lincosamide-streptogramin	ErmA	ErmA	ErmA: Erm 23S ribosomal RNA methyltransferase: rRNA methyltransferase conferring antibiotic resistance	ARO:3000347	Resfam	rRNA Methyltransferase	rRNA Methyltransferase	
+RF0070	macrolide-lincosamide-streptogramin	ErmB	ErmB	ErmB: Erm 23S ribosomal RNA methyltransferase: rRNA methyltransferase conferring antibiotic resistance	ARO:3000375	Resfam	rRNA Methyltransferase	rRNA Methyltransferase	
+RF0071	macrolide-lincosamide-streptogramin	ErmC	ErmC	ErmC: Erm 23S ribosomal RNA methyltransferase: rRNA methyltransferase conferring antibiotic resistance	ARO:3000250	Resfam	rRNA Methyltransferase	rRNA Methyltransferase	
+RF0088	macrolide-lincosamide-streptogramin	macA	macA	macA: subunit of efflux pump conferring antibiotic resistance	ARO:3000533	Resfam	ABC Transporter	ABC Transporter	
+RF0089	macrolide-lincosamide-streptogramin	macB	macB	macB: subunit of efflux pump conferring antibiotic resistance	ARO:3000535	Resfam	ABC Transporter	ABC Transporter	
+RF0090	macrolide-lincosamide-streptogramin	MacrolideGlycosyltransfer	MacrolideGlycosyltransfer	macrolide glycosyltransferase: macrolide inactivation enzyme	ARO:3000458	Resfam	Other	Other	
+PF00873.17	multidrug	ACR_tran	ACR_tran	AcrB/AcrD/AcrF family	PF00873.17	Pfam		Other Efflux	
+PF00893.17	multidrug	Multi_Drug_Res	Multi_Drug_Res	Small Multidrug Resistance protein	PF00893.17	Pfam		Other Efflux	
+PF01047.20	multidrug	MarR	MarR	MarR family	PF01047.20	Pfam		Gene Modulating Resistance	
+PF12802.5	multidrug	MarR_2	MarR_2	MarR family	PF12802.5	Pfam		Gene Modulating Resistance	
+TIGR00711	multidrug	emrB	emrB	"efflux_EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family"	TIGR00711	TIGRFam		MFS Transporter	
+RF0007	multidrug	ABCAntibioticEffluxPump	ABCAntibioticEffluxPump	ATP-binding cassette (ABC) antibiotic efflux pump	ARO:0010001	Resfam	ABC Transporter	ABC Transporter	
+RF0017	multidrug	ACR_tran	ACR_tran	PF00873.14 AcrB/AcrD/AcrF family	ARO:3000216;ARO:3000491;ARO:3000502	Pfam		Other Efflux	
+RF0019	multidrug	adeA-adeI	adeA-adeI	adeA-adeI: membrane fusion protein of multidrug efflux complex	ARO:3000774;ARO:3000780 	Resfam	RND Antibiotic Efflux	RND Antibiotic Efflux	
+RF0020	multidrug	adeB	adeB	adeB: membrane fusion protein of multidrug efflux complex	ARO:3000775	Resfam	RND Antibiotic Efflux	RND Antibiotic Efflux	
+RF0021	multidrug	adeC-adeK-oprM	adeC-adeK-oprM	adeC-adeK-oprM: outer membrane factor the multidrug efflux complex	ARO:3000776;ARO:3000782;ARO:3000379	Resfam	RND Antibiotic Efflux	RND Antibiotic Efflux	
+RF0022	multidrug	adeR	adeR	adeR: positive regulator of AdeABC efflux system	ARO:3000553	Resfam	Other Efflux	Other Efflux	
+RF0023	multidrug	adeS	adeS	adeS: gene modulating antibiotic efflux regulating AdeABC	ARO:3000549	Resfam	Other Efflux	Other Efflux	
+RF0035	multidrug	baeR	baeR	baeR: subunit of gene modulating antibiotic efflux	ARO:3000828	Resfam	Gene Modulating Resistance	Gene Modulating Resistance	
+RF0036	multidrug	baeS	baeS	baeS: subunit of gene modulating antibiotic efflux	ARO:3000829	Resfam	Gene Modulating Resistance	Gene Modulating Resistance	
+RF0065	multidrug	emrB	emrB	emrB: subunit of efflux pump conferring antibiotic resistance	ARO:3000074	Resfam	MFS Transporter	MFS Transporter	
+RF0066	multidrug	emrE	emrE	emrE: small multidrug resistance (SMR) antibiotic efflux pump	ARO:3000264	Resfam	Other Efflux	Other Efflux	
+RF0067	multidrug	Erm23SRibosomalRNAMethyltransferase	Erm23SRibosomalRNAMethyltransferase	Emr 23S ribosomal RNA methyltransferase: rRNA methyltransferase conferring antibiotic resistance	ARO:3000560	Resfam	rRNA Methyltransferase	rRNA Methyltransferase	
+RF0068	multidrug	Erm38	Erm38	Erm38: Erm 23S ribosomal RNA methyltransferase: rRNA methyltransferase conferring antibiotic resistance	ARO:3000601	Resfam	rRNA Methyltransferase	rRNA Methyltransferase	
+RF0091	multidrug	marA	marA	marA: transcription factor induces MDR efflux pump AcrAB	ARO:3000263	Resfam	Gene Modulating Resistance	Gene Modulating Resistance	
+RF0092	multidrug	MarR	MarR	PF01047.17 MarR family	ARO:3000718	Pfam		Gene Modulating Resistance	
+RF0093	multidrug	MarR_2	MarR_2	PF12802.2 MarR family	ARO:3000718	Pfam		Gene Modulating Resistance	
+RF0096	multidrug	MexA	MexA	mexA: membrane fusion protein of the MexAB-OprM multidrug efflux complex	ARO:3000377	Resfam	RND Antibiotic Efflux	RND Antibiotic Efflux	
+RF0097	multidrug	MexC	MexC	mexC: membrane fusion protein of the MexCD-OprJ multidrug efflux complex	ARO:3000800	Resfam	RND Antibiotic Efflux	RND Antibiotic Efflux	
+RF0098	multidrug	MexE	MexE	mexE: membrane fusion protein of the MexEF-OprN multidrug efflux complex	ARO:3000803	Resfam	RND Antibiotic Efflux	RND Antibiotic Efflux	
+RF0099	multidrug	MexH	MexH	mexH: membrane fusion protein of the efflux complex MexGHI-OpmD	ARO:3000807	Resfam	RND Antibiotic Efflux	RND Antibiotic Efflux	
+RF0100	multidrug	MexW-MexI	MexW-MexI	A grouping of related mexW and mexI subunits of efflux pumps conferring antibiotic resistance	ARO:3000808	Resfam	RND Antibiotic Efflux	RND Antibiotic Efflux	
+RF0101	multidrug	MexX	MexX	mexX:  subunit of efflux pump conferring antibiotic resistance	ARO:3001214	Resfam	RND Antibiotic Efflux	RND Antibiotic Efflux	
+RF0102	multidrug	MFS_1	MFS_1	PF07690.11 Major Facilitator Superfamily	ARO:0010002	Pfam		MFS Transporter	
+RF0104	multidrug	MFSAntibioticEffluxPump	MFSAntibioticEffluxPump	major facilitator superfamily (MFS) antibiotic efflux pump	ARO:0010002	Resfam	MFS Transporter	MFS Transporter	
+RF0106	multidrug	mprF	mprF	mprF: peptide antibiotic resistance gene	ARO:3000863	Resfam	Gene Modulating Resistance	Gene Modulating Resistance	
+RF0107	multidrug	msbA	msbA	msbA: ATP-binding cassette (ABC) antibiotic efflux pump	ARO:3000460	Resfam	ABC Transporter	ABC Transporter	
+RF0109	multidrug	norA	norA	norA: major facilitator superfamily (MFS) antibiotic efflux pump	ARO:3000391	Resfam	MFS Transporter	MFS Transporter	
+RF0112	multidrug	phoQ	phoQ	phoQ: subunit of gene modulating antibiotic efflux	ARO:3000835	Resfam	Gene Modulating Resistance	Gene Modulating Resistance	
+RF0113	multidrug	QuinoloneResistanceProteinQnr	QuinoloneResistanceProteinQnr	quninolone resistance protein (Qnr): antibiotic target protection protein	ARO:3000419	Resfam	Quinolone Resistance	Quinolone Resistance	
+RF0114	multidrug	ramA	ramA	ramA: gene modulating antibiotic efflux	ARO:3000823	Resfam	Gene Modulating Resistance	Gene Modulating Resistance	
+RF0115	multidrug	RNDAntibioticEffluxPump	RNDAntibioticEffluxPump	resistance-nodulation-cell division (RND) antibiotic efflux pump	ARO:0010004	Resfam	RND Antibiotic Efflux	RND Antibiotic Efflux	
+RF0116	multidrug	robA	robA	robA: transcriptional activator of AcrAB antibiotic efflux pump	ARO:3000825	Resfam	Gene Modulating Resistance	Gene Modulating Resistance	
+RF0117	multidrug	romA	romA	romA: trasncription factor mediating antibiotic resistance	ARO:3001216	Resfam	Gene Modulating Resistance	Gene Modulating Resistance	
+RF0121	multidrug	soxR	soxR	soxR: mutant efflux regulatory protein conferring antibiotic resistance	ARO:3000836	Resfam	Gene Modulating Resistance	Gene Modulating Resistance	
+RF0140	multidrug	Bcr_Cfla	Bcr_Cfla	"TIGR00710 efflux Bcr CflA: drug resistance transporter, Bcr/CflA subfamily"	ARO:3000000	TIGRFam		MFS Transporter	
+RF0141	multidrug	EmrB	EmrB	"TIGR00711 efflux EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family"	ARO:3000074	TIGRFam		MFS Transporter	
+RF0142	multidrug	MATE_efflux	MATE_efflux	TIGR00797 matE: MATE efflux family protein	ARO:3000112	TIGRFam		Other Efflux	
+RF0147	multidrug	tolC	tolC	tolC: subunit of efflux pump conferring antibiotic resistance	ARO:3000237	Resfam	ABC Transporter	ABC Transporter	
+RF0164	multidrug	RND_mfp	RND_mfp	"TIGR01730: RND_mfp: efflux transporter, RND family, MFP subunit"	ARO:0010004	TIGRFam		RND Antibiotic Efflux	
+RF0169	multidrug	Small_Multi_Drug_Res	Small_Multi_Drug_Res	PF00893.14_Small Multidrug Resistance protein	ARO:0010003	Pfam		Other Efflux	
+RF0074	quinolone	FluoroquinoloneResistantDNATopoisomerase	FluoroquinoloneResistantDNATopoisomerase	Fluoroquinolone Resistant DNA Topoisomerase	ARO:3000452	Resfam	Quinolone Resistance	Quinolone Resistance	
+PF00440.21	tetracycline	TetR_N	TetR_N	"Bacterial regulatory proteins, tetR family"	PF00440.21	Pfam		Gene Modulating Resistance	
+RF0127	tetracycline	TetA	TetA	tetA: tetracycline resistance MFS efflux pump	ARO:3000165	Resfam	Tetracycline MFS Efflux	MFS Transporter	Tetracycline MFS Efflux
+RF0128	tetracycline	TetA-B	TetA-B	tetA(B): tetracycline resistance MFS efflux pump	ARO:3000165	Resfam	Tetracycline MFS Efflux	MFS Transporter	Tetracycline MFS Efflux
+RF0129	tetracycline	TetA-G	TetA-G	tetA(G): tetracycline resistance MFS efflux pump	ARO:3000165	Resfam	Tetracycline MFS Efflux	MFS Transporter	Tetracycline MFS Efflux
+RF0130	tetracycline	TetD	TetD	tetD: tetracycline resistance MFS efflux pump	ARO:3000168	Resfam	Tetracycline MFS Efflux	MFS Transporter	Tetracycline MFS Efflux
+RF0131	tetracycline	TetE	TetE	tetE: tetracycline resistance MFS efflux pump	ARO:3000173	Resfam	Tetracycline MFS Efflux	MFS Transporter	Tetracycline MFS Efflux
+RF0132	tetracycline	TetH-TetJ	TetH-TetJ	tetH and TetJ: tetracycline resistance MFS efflux pumps	ARO:3000175;ARO:3000177	Resfam	Tetracycline MFS Efflux	MFS Transporter	Tetracycline MFS Efflux
+RF0133	tetracycline	TetM-TetW-TetO-TetS	TetM-TetW-TetO-TetS	"tetM, tetW, tetO, and tetS: tetracycline resistance ribosomal protection protein"	ARO:3000186;ARO:3000194;ARO:3000190;ARO:3000192	Resfam	Tetracycline Ribosomal Protection	Target Protection	Tetracycline Ribosomal Protection
+RF0134	tetracycline	Tetracycline_Resistance_MFS_Efflux_Pump	Tetracycline_Resistance_MFS_Efflux_Pump	tetracycline resistance MFS efflux pump: selectively pump out tetracycline or tetracycline derivatives	ARO:3000239	Resfam	Tetracycline MFS Efflux	MFS Transporter	Tetracycline MFS Efflux
+RF0135	tetracycline	Tetracycline_Resistance_Ribosomal_Protection_Protein	Tetracycline_Resistance_Ribosomal_Protection_Protein	tetracycline resistance ribosomal protection protein: protect RNA-polymerase from tetracycline inhibition	ARO:0000002	Resfam	Tetracycline Ribosomal Protection	Target Protection	Tetracycline Ribosomal Protection
+RF0136	tetracycline	TetX	TetX	tetX: tetracycline inactivation enzyme	ARO:3000205	Resfam	Tetracycline Inactivation	Antibiotic Inactivation	Tetracycline Inactivation
+RF0137	tetracycline	TetY	TetY	tetY: tetracycline resistance MFS efflux pump	ARO:3000182	Resfam	Tetracycline MFS Efflux	MFS Transporter	Tetracycline MFS Efflux
+RF0063	trimethoprim	DHFR_1	DHFR_1	PF00186.14 Dihydrofolate reductase	ARO:3000745	Pfam		Target Redundancy/Overexpression	
+RF0165	trimethoprim	Dihydropteroate	Dihydropteroate	TIGR01496_DHPS: dihydropteroate synthase	ARO:3000266	TIGRFam		Target Redundancy/Overexpression	
+RF0149	vancomycin	vanA	vanA	VanA: D-Ala-D-Ala ligase that can synthesize D-Ala-D-Lac	ARO:3000010	Resfam	Gylcopeptide Resistance	Gylcopeptide Resistance	
+RF0150	vancomycin	vanB	vanB	VanB: D-Ala-D-Ala ligase that can synthesize D-Ala-D-Lac	ARO:3000013	Resfam	Gylcopeptide Resistance	Gylcopeptide Resistance	
+RF0151	vancomycin	vanC	vanC	VanC: D-Ala-D-Ala ligase that can synthesize D-Ala-D-Ser	ARO:3000368	Resfam	Gylcopeptide Resistance	Gylcopeptide Resistance	
+RF0152	vancomycin	vanD	vanD	VanD: D-Ala-D-Ala ligase that can synthesize D-Ala-D-Lac	ARO:3000005	Resfam	Gylcopeptide Resistance	Gylcopeptide Resistance	
+RF0153	vancomycin	vanH	vanH	VanH: D-specific alpha-ketoacid dehydrogenase that synthesizes D-lactate	ARO:3000006	Resfam	Gylcopeptide Resistance	Gylcopeptide Resistance	
+RF0154	vancomycin	vanR	vanR	"VanR: transcriptional activator regulating VanA, VanH and VanX"	ARO:3000574	Resfam	Gylcopeptide Resistance	Gene Modulating Resistance	
+RF0155	vancomycin	vanS	vanS	VanS: trasncriptional regulator of van glycopeptide resistance genes	ARO:3000071	Resfam	Gylcopeptide Resistance	Gene Modulating Resistance	
+RF0156	vancomycin	vanT	vanT	"VanT: membrane bound serine racemase, converting L-serine to D-serine"	ARO:3000372	Resfam	Gylcopeptide Resistance	Gylcopeptide Resistance	
+RF0157	vancomycin	vanW	vanW	VanW: glycopeptide resistance gene	ARO:3000002	Resfam	Gylcopeptide Resistance	Gylcopeptide Resistance	
+RF0158	vancomycin	vanX	vanX	VanX: glycopeptide resistance gene	ARO:3000011	Resfam	Gylcopeptide Resistance	Gylcopeptide Resistance	
+RF0159	vancomycin	vanY	vanY	VanY: glycopeptide resistance gene	ARO:3000077	Resfam	Gylcopeptide Resistance	Gylcopeptide Resistance	
+RF0160	vancomycin	vanZ	vanZ	VanZ: glycopeptide resistance gene	ARO:3000116	Resfam	Gylcopeptide Resistance	Gylcopeptide Resistance	
