@@ -56,4 +56,4 @@ Prints the current MetaPhlAn version and exit
 show this help message and exit
 
 
-ALL_hmm_compare_ARGs.py -i <protein_c_ORFs>.fasta -o <OUTPUT_NAME> -db MGEs.v0.5.hmm -n 2
+ALL_hmm_compare_ARGs.py -i <protein_c_ORFs>.fasta -o <OUTPUT_NAME> -db ARGfam-Pfam-Tigrfam.v0.5.hmm -n 2
