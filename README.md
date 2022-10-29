@@ -32,28 +32,28 @@ DESCRIPTION ARGfams version: 0.5.0 Detailed introducion
 
 optional arguments:
 **-i INPUT_FILE, --input INPUT_FILE**
-the input file ORFs.faa
+the input file ORFs.faa  
 
 **-o [OUTPUT_FILE_NAME], --output [OUTPUT_FILE_NAME]**
-the outputfile prefix name: eg. PRIFEX.tlout
+the outputfile prefix name: eg. PRIFEX.tlout  
 
-Required arguments:
+Required arguments:  
 **-db ARGfams_Database**
-ARGfams_Database; Default Antibiotic Resistance Genes
+ARGfams_Database; Default Antibiotic Resistance Genes  
 
 **{--cut_ga,--cut_nc,--cut_tc}**
-hmm type; chose from {--cut_ga, --cut_nc, --cut_tc default:cut_ga
+hmm type; chose from {--cut_ga, --cut_nc, --cut_tc default:cut_ga  
 
 **-n N, --nproc N**
-The number of CPUs to use for parallelizing the mapping [default 1]
+The number of CPUs to use for parallelizing the mapping [default 1]  
 
-Other arguments:
+Other arguments:  
 
-**--check**
-Only checks if the Default ARG DB is installed and installs it if not.
+**--check **
+Only checks if the Default ARG DB is installed and installs it if not.  
 
 **-v, --version**
-Prints the current MetaPhlAn version and exit
+Prints the current MetaPhlAn version and exit  
 
 **-h, --help**
 show this help message and exit
