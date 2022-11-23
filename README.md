@@ -59,7 +59,7 @@ Prints the current MetaPhlAn version and exit
 show this help message and exit
 
 
-ARGfams-v0.5.py -i <protein_c_ORFs>.fasta -o <OUTPUT_NAME> -db ARGfam_v0.5.hmm -n 2
+ARGfams-v0.5.py -i <protein_c_ORFs>.faa -o <OUTPUT_NAME> -db ARGfam_v0.5/ARGfam_v0.5.hmm -n 2
 
 
 
