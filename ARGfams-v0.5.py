@@ -2,13 +2,14 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jun  1 20:23:13 2022
-
 @author: xinyu
 """
+
 __author__ = ("Ju Feng",
               "Zhang Guoqing")
 __version__ = '0.5.0'
 __date__ = '2020.01.13'
+
 import sys, os
 import argparse as ap
 import subprocess as subp
