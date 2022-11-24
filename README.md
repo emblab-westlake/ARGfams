@@ -2,7 +2,7 @@
 
 Fast and robust identification of antibiotic resistance genes (ARGs) from genomic and metagenomic assemblies of high-throughput DNA sequencing. The ARGfams is a high-quality, manually curated and structured subdatabase of profile Hidden Markov Models (HMM) for ARGs annotation.
 
-This subdatabase consists of HMM models for ARGs  were built from Pfam(v34.0) and TIGRFAMs(v15.0), based on string match in their functional annotations to one of the keywords (Details are in the citations below).
+This subdatabase consists of HMM models for ARGs  were built from Pfam(v34.0) and TIGRFAMs(v15.0), based on string match in their functional annotations to one of the keywords (Details are in the citations below). [Download](https://doi.org/10.6084/m9.figshare.21610416.v1 )
 
 For ARG-like ORFs with domain bit-score of best hits greater than 50 were finalized as an ARG. The identified ARGs were then classified into 12 types, including aminoglycoside, beta-lactam, bleomycin, chloramphenicol, daunorubicin, macrolide-lincosamide-streptogramin (MLS), multidrug, quinolone, tetracycline, trimethoprim, vancomycin, unclassified, followed by further classification  into 161 subtypes (Details are in the citations below).
 
@@ -57,7 +57,6 @@ Prints the current MetaPhlAn version and exit
 
 **-h, --help**
 show this help message and exit
-
 
 ARGfams-v0.5.py -i <protein_c_ORFs>.faa -o <OUTPUT_NAME> -db ARGfam_v0.5/ARGfam_v0.5.hmm -n 2
 
