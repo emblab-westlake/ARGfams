@@ -6,12 +6,16 @@ This subdatabase consists of HMM models for ARGs  were built from Pfam(v34.0) an
 
 For ARG-like ORFs with domain bit-score of best hits greater than 50 were finalized as an ARG. The identified ARGs were then classified into 12 types, including aminoglycoside, beta-lactam, bleomycin, chloramphenicol, daunorubicin, macrolide-lincosamide-streptogramin (MLS), multidrug, quinolone, tetracycline, trimethoprim, vancomycin, unclassified, followed by further classification  into 161 subtypes (Details are in the citations below).
 
+The first stratege is a two-step scan. The advantage of this annotation strategy is that when you updated version of the large database of protein HMM model, you can continuously update and optimization the sub ARG database by manual verification the difference annotation results in the two-step scan.
+
+However, large protein hmm models databases are not updated frequently. So if the large database has not been updated within a certain period of time, using the sub ARG databases for one-step scan can obtain reliable annotation results in a shorter time, which is the second strategy.
+
 ---
 
 ### Development Record
 
-ARGfams_v0.1, v0.2, v0.3 and v0.4 - created by Feng Ju in Oct 2018
-ARGfams_v0.5 - created by Xinyu HUang in May 2022 based on ARGfams_v0.4 and Pfam (v34.0) and TIGRFAMs (v15.0)
+ARGfams created by Feng Ju in Oct 2018
+ARGfams v0.1 - created by Xinyu Huang and Guoqing Zhang based and Pfam (v34.0) and TIGRFAMs (v15.0)
 
 
 ### Dependence
@@ -19,9 +23,8 @@ ARGfams_v0.5 - created by Xinyu HUang in May 2022 based on ARGfams_v0.4 and Pfam
 python: >=3.6
 HMMER3: >=3.3.2
 
-
 Update Notes
-ARGfams_v5.0 was constructed based on the lastest version of Pfam (v34.0) and TIGRFAMs (v15.0), and will be regularly updated.
+ARGfams v0.1 was constructed based on the lastest version of Pfam (v34.0) and TIGRFAMs (v15.0), and will be regularly updated.
 
 Dependence
 python: >=3.6
@@ -41,6 +44,9 @@ Required arguments:
 **-db ARGfams_Database**
 ARGfams_Database; Default Antibiotic Resistance Genes  
 
+**-DB synthesis_database**
+Synthesis database, Default Pfam and Tigrfam
+
 **{--cut_ga,--cut_nc,--cut_tc}**
 hmm type; chose from {--cut_ga, --cut_nc, --cut_tc default:cut_ga  
 
@@ -58,7 +64,15 @@ Prints the current MetaPhlAn version and exit
 **-h, --help**
 show this help message and exit
 
-ARGfams-v0.5.py -i <protein_c_ORFs>.faa -o <OUTPUT_NAME> -db ARGfam_v0.5/ARGfam_v0.5.hmm -n 2
+
+
+```bash
+# One-step scan
+python ARGfams_OneStep_v0.1.py -i <protein_c_ORFs>.faa -o <OUTPUT_NAME> -db ARGfams_V0.1/ARGfams_v0.1.hmm -n 2
+
+# Two-step scan
+python ARGfams_TwoSteps_v0.1.py -i <protein_c_ORFs>.faa -o <OUTPUT_NAME> -db ARGfams_V0.1/ARGfams_v0.1.hmm -DB Pfam-Tigrfam.hmm -n 2
+```
 
 
 
