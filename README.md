@@ -6,9 +6,11 @@ This subdatabase consists of HMM models for ARGs  were built from Pfam(v34.0) an
 
 For ARG-like ORFs with domain bit-score of best hits greater than 50 were finalized as an ARG. The identified ARGs were then classified into 12 types, including aminoglycoside, beta-lactam, bleomycin, chloramphenicol, daunorubicin, macrolide-lincosamide-streptogramin (MLS), multidrug, quinolone, tetracycline, trimethoprim, vancomycin, unclassified, followed by further classification  into 161 subtypes (Details are in the citations below).
 
-The first stratege is a two-step scan. The advantage of this annotation strategy is that when you updated version of the large database of protein HMM model, you can continuously update and optimization the sub ARG database by manual verification the difference annotation results in the two-step scan.
+We provide two similar ARG annotation strategies but slightly different in annotation speed.
 
-However, large protein hmm models databases are not updated frequently. So if the large database has not been updated within a certain period of time, using the sub ARG databases for one-step scan can obtain reliable annotation results in a shorter time, which is the second strategy.
+The first strategy is a two-step scan. The advantage of this annotation strategy is that when you update the version of the large database of the protein HMM model, you can continuously update and optimize the sub-ARG database by manually verifying the difference annotation results in the two-step scan.
+
+However, large protein hmm model databases are not updated frequently. So if the large database has not been updated within a certain period, using the sub-ARG databases for a one-step scan can obtain reliable annotation results in a shorter time, which is the second strategy.
 
 ---
 
