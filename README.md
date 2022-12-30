@@ -1,23 +1,20 @@
 # ARGfams: 
 
-Fast and robust identification of antibiotic resistance genes (ARGs) from genomic and metagenomic assemblies of high-throughput DNA sequencing. The ARGfams is a high-quality, manually curated and structured subdatabase of profile Hidden Markov Models (HMM) for ARGs annotation.
+ARGfams leverages the power of hmmscan search against a high-quality, manually curated, and structured sub-database of profile Hidden Markov Models (HMM) for fast annotation of Antibiotic Resistance Genes (ARGs) from genomic and metagenomic assemblies of high-throughput DNA sequencing data. This annotation tool identifies protein domains of known ARGs from genome or metagenome-assembled open reading frames (ORFs) or protein-coding genes (PCGs) and excels classic sequence alignment-based approaches for predicting relative remote homologues of known ARGs from environmental microbiome (e.g., soil, water, and sediment) in which new or less-homologous ARGs commonly occur.
 
-This subdatabase consists of HMM models for ARGs  were built from Pfam(v34.0) and TIGRFAMs(v15.0), based on string match in their functional annotations to one of the keywords (Details are in the citations below). 
+**Database resource:** The structured sub-database of ARGs consists of 197 HMM models extracted from the full database of Pfam(v34.0), TIGRFAMs(v15.0) and Resfams (Full - v1.2), based on string match in their functional annotations to one of the indicative keywords of ARGs (Dataset S2 of Environmental Microbiome. 2022;17(1):19), followed by manual validation. The ARGs in the sub-database (v0.1) were classified into 11 types based on the class of antibiotics to which they confer resistance, including aminoglycoside, beta-lactam, bleomycin, chloramphenicol, daunorubicin, macrolide-lincosamide-streptogramin (MLS), multidrug, quinolone, tetracycline, trimethoprim, vancomycin, followed by further classification into 161 subtypes based on protein families. More details on the structured sub-database are available in the Methods of the Citation below).
 
-For ARG-like ORFs with domain bit-score of best hits greater than 50 were finalized as an ARG. The identified ARGs were then classified into 12 types, including aminoglycoside, beta-lactam, bleomycin, chloramphenicol, daunorubicin, macrolide-lincosamide-streptogramin (MLS), multidrug, quinolone, tetracycline, trimethoprim, vancomycin, unclassified, followed by further classification  into 161 subtypes (Details are in the citations below).
+**Annotation strategy:** two alternative strategies of ARG annotation that in principle generated the same results.
 
-We provide two similar ARG annotation strategies but slightly different in annotation speed.
+Strategy 1 (default): ARGfams (ARGfams_v0.1.py) performs one-step scan of query ORF sequences against the ARGfams sub-database (-db), and significant best hits with a domain bit-score greater than 50 are predicted as ARG.
 
-The first strategy is a two-step scan. The advantage of this annotation strategy is that when you update the version of the large database [Download](https://doi.org/10.6084/m9.figshare.21610416.v1 ) of the protein HMM model, you can continuously update and optimize the sub-ARG database by manually verifying the difference annotation results in the two-step scan.
-
-However, large protein hmm model databases are not updated frequently. So if the large database has not been updated within a certain period, using the sub-ARG databases for a one-step scan can obtain reliable annotation results in a shorter time, which is the second strategy.
+Strategy 2 (optional): ARGfams (ARGfams+_v0.1.py) performs two-step scan of query ORF sequences against the structured sub-database ARGfams (-db) and user-defined HMM database (-DB). The 2nd scan outputs are compared against those of 1st scan outputs to check whether certain models in the user-defined database (-DB) might generate higher-confidence alignments of ARGs. If yes, the users can expand and update the current version of structured sub-database of ARGfams by incorporating these models from user-defined database.
 
 ---
 
 ### Development Record
 
-ARGfams created by Feng Ju in Oct 2018
-ARGfams v0.1 - created by Xinyu Huang and Guoqing Zhang based and the large HMM model database was construct by Pfam (v34.0) and TIGRFAMs (v15.0)
+ARGfams conceived and initially created by Feng Ju in Oct 2018. Structured sub-database ARGfams v0.1.hmm created by Xinyu Huang and Guoqing Zhang based on Pfam (v34.0), TIGRFAMs (v15.0) and Resfams(Full - v1.2)
 
 
 ### Dependence
@@ -25,55 +22,50 @@ ARGfams v0.1 - created by Xinyu Huang and Guoqing Zhang based and the large HMM 
 python: >=3.6
 HMMER3: >=3.3.2
 
-Update Notes
-ARGfams v0.1 was constructed based on the lastest version of Pfam (v34.0) and TIGRFAMs (v15.0), and will be regularly updated.
 
-Dependence
-python: >=3.6
-HMMER3: >=3.3.2
 
 ### Usage
 DESCRIPTION ARGfams version: 0.1 Detailed introduction
 
-optional arguments:
-**-i INPUT_FILE, --input INPUT_FILE**
+#### optional arguments:
+**-i INPUT_FILE, --input INPUT_FILE**  
 the input file ORFs.faa  
 
-**-o [OUTPUT_FILE_NAME], --output [OUTPUT_FILE_NAME]**
-the outputfile prefix name: eg. PRIFEX.tlout  
+**-o [OUTPUT_FILE_NAME], --output [OUTPUT_FILE_NAME]**  
+the outputfile prefix name: eg. PRIFEX.tlout   
 
-Required arguments:  
-**-db ARGfams_Database**
+#### Required arguments:  
+**-db ARGfams_Database**  
 ARGfams_Database; Default Antibiotic Resistance Genes  
 
-**-DB synthesis_database**
-Synthesis database, Default Pfam and Tigrfam
+**-DB synthesis_database**  
+Synthesis database, user-defined database
 
-**{--cut_ga,--cut_nc,--cut_tc}**
+**{--cut_ga,--cut_nc,--cut_tc}**  
 hmm type; chose from  --cut_ga, --cut_nc, --cut_tc [default: cut_ga] 
 
-**-n N, --nproc N**
+**-n N, --nproc N**  
 The number of CPUs to use for parallelizing the mapping [default 1]  
 
-Other arguments:  
+#### Other arguments:  
 
-**--check **
+**--check **  
 Only checks if the Default ARG DB is installed and installs it if not.  
 
-**-v, --version**
+**-v, --version**  
 Prints the current version
 
-**-h, --help**
+**-h, --help**  
 show this help message
 
 
 
 ```bash
-# One-step scan
-python ARGfams_OneStep_v0.1.py -i <protein_c_ORFs>.faa -o <OUTPUT_NAME> -db ARGfams_V0.1/ARGfams_v0.1.hmm -n 2
+# Strategy 1 (default) with One-step scan (faster)
+python ARGfams_v0.1.py -i <INPUT_FILE> -o <OUTPUT_Prefix> -db ARGfams_V0.1/ARGfams_v0.1.hmm -n 2
 
-# Two-step scan
-python ARGfams_TwoSteps_v0.1.py -i <protein_c_ORFs>.faa -o <OUTPUT_NAME> -db ARGfams_V0.1/ARGfams_v0.1.hmm -DB Pfam-Tigrfam.hmm -n 2
+# Strategy 2 (optional) with two-step can (slower)
+python ARGfamsPlus_v0.1.py -i <INPUT_FILE> -o <OUTPUT_Prefix> -db ARGfams_V0.1/ARGfams_v0.1.hmm -DB user_defined.hmm -n 2
 ```
 
 
