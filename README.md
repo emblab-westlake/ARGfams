@@ -8,7 +8,7 @@ ARGfams leverages the power of hmmscan search against a high-quality, manually c
 
 Strategy 1 (default): ARGfams (ARGfams_v0.1.py) performs one-step scan of query ORF sequences against the ARGfams sub-database (-db), and significant best hits with a domain bit-score greater than 50 are predicted as ARG.
 
-Strategy 2 (optional): ARGfams (ARGfams+_v0.1.py) performs two-step scan of query ORF sequences against the structured sub-database ARGfams (-db) and user-defined HMM database (-DB). The 2nd scan outputs are compared against those of 1st scan outputs to check whether certain models in the user-defined database (-DB) might generate higher-confidence alignments of ARGs. If yes, the users can expand and update the current version of structured sub-database of ARGfams by incorporating these models from user-defined database.
+Strategy 2 (optional): ARGfams (ARGfamsPlus_v0.1.py) performs two-step scan of query ORF sequences against the structured sub-database ARGfams (-db) and user-defined HMM database (-DB). The 2nd scan outputs are compared against those of 1st scan outputs to check whether certain models in the user-defined database (-DB) might generate higher-confidence alignments of ARGs. If yes, the users can expand and update the current version of structured sub-database of ARGfams by incorporating these models from user-defined database.
 
 ---
 
@@ -19,7 +19,7 @@ ARGfams conceived and initially created by Feng Ju in Oct 2018. Structured sub-d
 
 ### Dependence
 
-python: >=3.6
+python: >=3.6  
 HMMER3: >=3.3.2
 
 
@@ -49,7 +49,7 @@ The number of CPUs to use for parallelizing the mapping [default 1]
 
 #### Other arguments:  
 
-**--check **  
+**--check**  
 Only checks if the Default ARG DB is installed and installs it if not.  
 
 **-v, --version**  
